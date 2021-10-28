@@ -1,4 +1,4 @@
-# python-string-container
+# python-strings-lists
 
 Les chaînes de caractères, et les listes ... en Python!
 
