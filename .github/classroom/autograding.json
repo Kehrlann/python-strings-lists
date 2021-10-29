@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "Le fichier existe",
+      "name": "Palindromes simples: kayak, if fi, tracteur",
       "setup": "",
-      "run": "python3 -m unittest test_snake.TestSnake.test_file_exists",
+      "run": "python3 -m unittest test_palindrome.TestPalindrome.test_simple",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,9 +11,9 @@
       "points": 1
     },
     {
-      "name": "Le formattage est correct (le fichier est \"parse-able\")",
+      "name": "Palindrome avec ponctuation",
       "setup": "",
-      "run": "python3 -m unittest test_snake.TestSnake.test_parses",
+      "run": "python3 -m unittest test_palindrome.TestPalindrome.test_punctuation",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -21,9 +21,9 @@
       "points": 1
     },
     {
-      "name": "Le fichier importe pygame",
+      "name": "Display palindrome: OK",
       "setup": "",
-      "run": "python3 -m unittest test_snake.TestSnake.test_has_pygame",
+      "run": "python3 -m unittest test_palindrome.TestPalindrome.test_display_ok",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -31,9 +31,69 @@
       "points": 1
     },
     {
-      "name": "Le fichier lance un jeu de snake (ou presque)",
+      "name": "Display palindrome: difference",
       "setup": "",
-      "run": "python3 -m unittest test_snake.TestSnake.test_runs",
+      "run": "python3 -m unittest test_palindrome.TestPalindrome.test_display_difference",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: addition simple",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_simple",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: plusieurs operandes",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_multiple_operands",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: division",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_divide",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: erreur de syntaxe",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_syntax",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: stack vide",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_empty_stack",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Calculatrice postfix: calcul non termine",
+      "setup": "",
+      "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_unfinished",
       "input": "",
       "output": "",
       "comparison": "included",
