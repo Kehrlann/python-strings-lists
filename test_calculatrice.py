@@ -16,6 +16,7 @@ class TestCalculatrice(unittest.TestCase):
         self.assertEqual(postfix_eval("2 a +"), "error-syntax")
 
     def test_empty_stack(self):
+        self.assertEqual(postfix_eval("+"), "error-empty-stack")
         self.assertEqual(postfix_eval("2 +"), "error-empty-stack")
 
     def test_unfinished(self):
