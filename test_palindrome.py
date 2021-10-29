@@ -14,7 +14,7 @@ class TestPalindrome(unittest.TestCase):
     def test_punctuation(self):
         self.assertTrue(palindrome("Eva, Can I Stab Bats In A Cave?"))
 
-    def test_display(self):
+    def test_display_ok(self):
         stdout = StringIO()
         with patch("sys.stdout", new=stdout):
             expected = cleandoc("""
@@ -25,6 +25,7 @@ class TestPalindrome(unittest.TestCase):
             output = stdout.getvalue().strip("\n")
             self.assertEqual(output, expected)
 
+    def test_display_difference(self):
         stdout = StringIO()
         with patch("sys.stdout", new=stdout):
             expected = cleandoc("""
