@@ -22,7 +22,7 @@ class TestPalindrome(unittest.TestCase):
             elle
             OK""")
             display_palindrome("elle")
-            output = stdout.getvalue()
+            output = stdout.getvalue().strip("\n")
             self.assertEqual(output, expected)
 
         stdout = StringIO()
@@ -32,7 +32,7 @@ class TestPalindrome(unittest.TestCase):
             enisiuc
             ^^   ^^""")
             display_palindrome("cuisine")
-            output = stdout.getvalue()
+            output = stdout.getvalue().strip("\n")
             self.assertEqual(output, expected)
 
 
