@@ -4,23 +4,33 @@ Les chaînes de caractères, et les listes ... en Python!
 
 ## Instructions
 
-Copiez votre fichier `snake.py` dans ce repository. Puis, créez un commit et pushez. Vous aurez les résultats sur Github.
+Copiez votre code relatif aux palindromes dans `palindrome.py`. Copiez le code relatif
+à la calculatrice dans `calculatrice.py`.
+
+Exécutez les tests en local (cf ci-dessous).
+
+Quand le résultat est satisfaisant, git add, git commit, git push:
 
 ```shell
-$ git add snake.py
+$ git add palindrome.py calculatrice.py
 $ # ajoutez aussi tout autre fichier que vous voulez committer
-$ git commit --message "Mon jeu, version 1"
+$ git commit --message "Palindrome v2, calculatrice v1"
 $ git push
 ```
 
-Règles:
-- Le fichier doit s'appeler snake.py
-- Il doit lancer pygame
+Rendus obligatoires:
+- Palindrome: simple + display
+
+Rendus recommandés:
+- Calculatrice
+
+Rendus facultatifs:
+- Calculatrice typée
 
 ## Exécuter les tests localement
 
 ```shell
-$ python -m unittest -vv
+$ python grader.py
 ```
 
 Si les tests ne finissent jamais, appuyez sur `Ctrl + C` pour interrompre.
