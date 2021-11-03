@@ -19,12 +19,12 @@ $ git push
 ```
 
 Rendus obligatoires:
-- Palindrome: simple + display
-
-Rendus recommandés:
-- Calculatrice
+- Palindrome
+- Display palindrome
+- Calculatrice (nombres entiers)
 
 Rendus facultatifs:
+- Exercices sur les fichiers
 - Calculatrice typée
 
 ## Exécuter les tests localement
