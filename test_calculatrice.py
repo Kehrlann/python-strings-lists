@@ -7,10 +7,10 @@ class TestCalculatrice(unittest.TestCase):
         self.assertEqual(postfix_eval("3 5 +"), 8)
 
     def test_multiple_operands(self):
-        self.assertEqual(postfix_eval("3 5 + 6 8 - *"), 16)
+        self.assertEqual(postfix_eval("3 5 + 8 6 - *"), 16)
 
     def test_divide(self):
-        self.assertEqual(postfix_eval("2 5 /"), 2)
+        self.assertEqual(postfix_eval("5 2 /"), 2)
 
     def test_syntax(self):
         self.assertEqual(postfix_eval("2 a +"), "error-syntax")
