@@ -1,5 +1,5 @@
 import unittest
-from calculatrice import postfix_eval, postfix_eval_typed
+from calculatrice import postfix_eval
 
 
 class TestCalculatrice(unittest.TestCase):
