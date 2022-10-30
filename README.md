@@ -98,7 +98,7 @@ Pour cette variante, on suppose que le mot ne contient pas de ponctuation.
 
 ## Exercice 2 - Fichiers et calcul du nombre de lignes, de mots et de caractères
 
-(Rendez votre exercice en complétant le fichier `palindrome.py`.)
+(Rendez votre exercice en complétant le fichier `comptage.py`.)
 
 On se propose d'écrire une _moulinette_ qui annote un fichier avec des nombres de lignes, de mots et de caractères.
 
@@ -137,6 +137,8 @@ et dans le fichier `romeo_juliet_comptage.txt`:
 Le fichier [romeo_juliet.txt](romeo_juliet.txt) est accessible dans le repo pour tests.
 
 ## Exercice 3 - Calculatrice polonaise inversée (postfix)
+
+(Rendez votre exercice en complétant le fichier `calculatrice.py`)
 
 ### Sur les nombres entiers
 

@@ -41,6 +41,26 @@
       "points": 1
     },
     {
+      "name": "Comptage: le fichier source est intact",
+      "setup": "",
+      "run": "python3 -m unittest test_comptage.TestComptage.test_does_not_modify_input",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Comptage: le fichier source est intact",
+      "setup": "",
+      "run": "python3 -m unittest test_comptage.TestComptage.test_writes_output",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
       "name": "Calculatrice postfix: addition simple",
       "setup": "",
       "run": "python3 -m unittest test_calculatrice.TestCalculatrice.test_simple",
@@ -48,7 +68,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 1
+      "points": 2
     },
     {
       "name": "Calculatrice postfix: plusieurs operandes",
