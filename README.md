@@ -136,6 +136,17 @@ et dans le fichier `romeo_juliet_comptage.txt`:
 
 Le fichier [romeo_juliet.txt](romeo_juliet.txt) est accessible dans le repo pour tests.
 
+**indice :** Pour compter le numéro de ligne, utilisez la fonction "enumerate":
+
+```python
+>>> names = ["aline", "bobby", "chisara"]
+>>> for i, name in enumerate(names):
+>>>   print(i, name)
+0 "aline"
+1 "bobby"
+2 "chisara"
+```
+
 ## Exercice 3 - Calculatrice polonaise inversée (postfix)
 
 (Rendez votre exercice en complétant le fichier `calculatrice.py`)
