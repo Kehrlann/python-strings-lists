@@ -51,7 +51,7 @@
       "points": 1
     },
     {
-      "name": "Comptage: le fichier source est intact",
+      "name": "Comptage: le fichier de sortie a les bons nombres",
       "setup": "",
       "run": "python3 -m unittest test_comptage.TestComptage.test_writes_output",
       "input": "",
