@@ -12,6 +12,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(palindrome("kayak"))
         self.assertTrue(palindrome("if fi"))
         self.assertFalse(palindrome("tracteur"))
+        self.assertFalse(palindrome("allo"))
 
     def test_punctuation(self):
         from palindrome import palindrome
