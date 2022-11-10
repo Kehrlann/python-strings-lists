@@ -9,7 +9,7 @@ from inspect import cleandoc
 class TestComptage(unittest.TestCase):
 
     def setUp(self):
-        self.test_dir = TemporaryDirectory(ignore_cleanup_errors=True)
+        self.test_dir = TemporaryDirectory()
         self.test_path = Path(self.test_dir.name)
         self.input = self.test_path / "lorem_ipsum.txt"
         self.output = self.test_path / "lorem_ipsum_comptage.txt"
